@@ -1,0 +1,16 @@
+list_sen_afrad = []
+
+for i in range(10):
+    
+    sen_fard = int(input())
+    list_sen_afrad.append(sen_fard)
+ 
+list_sen_afrad.remove(max(list_sen_afrad))
+list_sen_afrad.remove(max(list_sen_afrad))
+
+list_sen_afrad.remove(min(list_sen_afrad))
+list_sen_afrad.remove(min(list_sen_afrad))
+    
+miangin = sum(list_sen_afrad) / 6
+
+print(max(list_sen_afrad))
